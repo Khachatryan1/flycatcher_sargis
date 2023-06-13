@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    cursor: none;
+    overflow: hidden;
+}
+
+#wrapper {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#fly-image {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+    transition: top 0.5s, left 0.5s;
+}
+
+.bloody-mark {
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+    position: absolute;
+}
+
+#cursor-image {
+    position: absolute; 
+    width: 150px; 
+    height: 150px; 
+    color: green;
+    display: none;
+    z-index: 10;
+}
